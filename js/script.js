@@ -12,6 +12,7 @@ window.addEventListener('DOMContentLoaded', function() {
 			info = document.getElementsByClassName('custom-info')[0],
 			char = document.getElementsByClassName('custom-char')[0],
 			style = document.getElementsByClassName('custom-style')[0];
+	
 	btnCreate.addEventListener('click', function(event) {
 		windowOverlay.style.display = 'none';
 		mainBlock.style.display = 'none';
@@ -20,8 +21,5 @@ window.addEventListener('DOMContentLoaded', function() {
 		char.style.display = 'block';
 		style.style.display = 'block';
 	});
-	console.log(btnCreate);
-	console.log(windowOverlay);
-	console.log(windowCustom);
 
 });
