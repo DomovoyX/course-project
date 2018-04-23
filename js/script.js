@@ -135,7 +135,7 @@ window.addEventListener('DOMContentLoaded', function() {
 			}
 		};*/
 
-		// дорабатываю
+		// доработано
 		let progressBar = mainBlock.querySelectorAll('.progress-bar'),
 			progressBarNumber = mainBlock.querySelectorAll('.result-count');
 			function getRandomInt(min, max){
