@@ -179,6 +179,8 @@ btnReady.addEventListener('click', function() {
 		newCardsItem.querySelector('.bio').textContent = newPerson.bio;
 		newCardsItem.querySelector('.photo').classList.remove('photo-1');
 		newCardsItem.querySelector(".photo").style.backgroundImage = personEasy.style.backgroundImage;
+		newCardsItem.querySelector(".photo").style.backgroundSize = "contain";
+		newCardsItem.querySelector(".photo").style.backgroundRepeat = "no-repeat";
 
 //переносим нашу карточку в конец списка
 		mCards[0].appendChild(newCardsItem);
